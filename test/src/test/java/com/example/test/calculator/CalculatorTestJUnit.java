@@ -44,12 +44,14 @@ public class CalculatorTestJUnit {
             Tearing down after each test.
      */
 
-    private Calculator cal;
+    private Calculator cal;     //(3)
 
+    //(3)
     @BeforeAll
     public static void setUpBeforeClass() {
         System.out.println("Before executing the test class.");
     }
+    //(3)
     @BeforeEach
     public void setUp() {
         System.out.println("Setting up before each test.");
@@ -96,11 +98,12 @@ public class CalculatorTestJUnit {
         System.out.println("divide");
     }
 
+    //(3)
     @AfterAll
     public static void teardownAfterTestClass() {
         System.out.println("Tearing down after each test.");
     }
-
+    //(3)
     @AfterEach
     public void teardownAfterTest(){
         System.out.println("Tearing down after all tests.");

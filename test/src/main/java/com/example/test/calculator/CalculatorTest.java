@@ -1,7 +1,6 @@
 package com.example.test.calculator;
 
 public class CalculatorTest {
-
     /*
     테스트를 담당하는 클래스를 별도로 추가하여 테스트 코드를 분리하였지만
     main() 메서드 하나에서 프로덕션 코드의 여러 메서드를 동시에 테스트하고 있다.

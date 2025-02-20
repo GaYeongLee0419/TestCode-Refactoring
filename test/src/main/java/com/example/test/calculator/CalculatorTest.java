@@ -1,9 +1,5 @@
 package com.example.test.calculator;
 
-/*
-*
-*
-*/
 public class CalculatorTest {
 
     /*

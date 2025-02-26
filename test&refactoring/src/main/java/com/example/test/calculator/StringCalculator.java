@@ -1,15 +1,9 @@
 package com.example.test.calculator;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/*
-    리팩토링
-    1. 한 메서드에는 하나의 책임만
-
- */
 public class StringCalculator {
     private String[] split(String input) {
         Matcher m = Pattern.compile("//(.)\n(.*)").matcher(input);
